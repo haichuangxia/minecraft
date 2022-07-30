@@ -1,0 +1,27 @@
+[10:28:55] [ServerMain/INFO]: Building unoptimized datafixer
+[10:28:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:29:01] [ServerMain/INFO]: Loaded 7 recipes
+[10:29:02] [ServerMain/INFO]: Loaded 1179 advancements
+[10:29:04] [Server thread/INFO]: Starting minecraft server version 1.19
+[10:29:04] [Server thread/INFO]: Loading properties
+[10:29:04] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:04] [Server thread/INFO]: Generating keypair
+[10:29:04] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[10:29:04] [Server thread/INFO]: Starting Minecraft server on *:25519
+[10:29:04] [Server thread/INFO]: Using epoll channel type
+[10:29:05] [Server thread/INFO]: Preparing level "world"
+[10:29:08] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[10:29:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld

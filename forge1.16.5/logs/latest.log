@@ -1,0 +1,59 @@
+[11:40:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:40:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:40:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:40:24] [main/INFO]: Reloading ResourceManager: Default
+[11:40:26] [Worker-Main-2/INFO]: Loaded 7 recipes
+[11:40:27] [Worker-Main-2/INFO]: Loaded 927 advancements
+[11:40:31] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[11:40:31] [Server thread/INFO]: Loading properties
+[11:40:31] [Server thread/INFO]: Default game type: SURVIVAL
+[11:40:31] [Server thread/INFO]: Generating keypair
+[11:40:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at zg$1.run(SourceFile:95) [minecraft_server.1.16.5.jar:?]
+[11:40:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:40:31] [Server thread/INFO]: Using epoll channel type
+[11:40:32] [Server thread/INFO]: Preparing level "world"
+[11:40:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:36] [Server thread/INFO]: Preparing spawn area: 17%
+[11:40:36] [Server thread/INFO]: Preparing spawn area: 77%
+[11:40:37] [Server thread/INFO]: Time elapsed: 5109 ms
+[11:40:37] [Server thread/INFO]: Done (5.301s)! For help, type "help"
+[11:40:37] [Server thread/INFO]: Starting GS4 status listener
+[11:40:37] [Server thread/INFO]: Thread Query Listener started
+[11:40:37] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[11:42:15] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[11:42:15] [Server thread/INFO]: WinterySoap367[/117.177.203.41:24222] logged in with entity id 140 at (-165.3982565749639, 62.9375, -856.3813243975608)
+[11:42:16] [Server thread/INFO]: WinterySoap367 joined the game
+[11:42:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[11:45:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3085ms or 61 ticks behind
+[11:46:03] [Server thread/WARN]: WinterySoap367 moved too quickly! -9.482262587259669,0.9030091784656733,3.0980400674073962
+[11:46:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12463ms or 249 ticks behind
+[11:46:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14570ms or 291 ticks behind
+[11:46:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4641ms or 92 ticks behind
+[11:47:43] [Server thread/WARN]: WinterySoap367 moved too quickly! -6.072204877200505,1.0,-7.943345397320513
+[11:48:21] [Server Watchdog/FATAL]: A single server tick took 60.41 seconds (should be max 0.05)
+[11:48:21] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[11:48:21] [Server thread/INFO]: WinterySoap367 lost connection: Timed out
+[11:48:21] [Server thread/INFO]: WinterySoap367 left the game

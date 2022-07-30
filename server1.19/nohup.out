@@ -1,0 +1,577 @@
+Starting net.minecraft.server.Main
+[21:13:29] [ServerMain/INFO]: Building unoptimized datafixer
+[21:13:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:13:35] [ServerMain/INFO]: Loaded 7 recipes
+[21:13:36] [ServerMain/INFO]: Loaded 1179 advancements
+[21:13:38] [Server thread/INFO]: Starting minecraft server version 1.19
+[21:13:38] [Server thread/INFO]: Loading properties
+[21:13:38] [Server thread/INFO]: Default game type: SURVIVAL
+[21:13:38] [Server thread/INFO]: Generating keypair
+[21:13:38] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[21:13:39] [Server thread/INFO]: Starting Minecraft server on *:25519
+[21:13:39] [Server thread/INFO]: Using epoll channel type
+[21:13:39] [Server thread/INFO]: Preparing level "world"
+[21:14:02] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[21:14:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:14:20] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[21:14:20] [Worker-Main-1/INFO]: Preparing spawn area: 76%
+[21:14:21] [Server thread/INFO]: Time elapsed: 17635 ms
+[21:14:21] [Server thread/INFO]: Done (41.540s)! For help, type "help"
+[21:14:21] [Server thread/INFO]: WinterySoap367[/117.173.184.132:17708] logged in with entity id 192 at (-57.75068266253633, 69.0, -54.812653535851744)
+[21:14:21] [Server thread/INFO]: WinterySoap367 joined the game
+[21:14:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[21:19:01] [Server thread/INFO]: WinterySoap367 has made the advancement [Stone Age]
+[21:19:32] [Server thread/INFO]: WinterySoap367 has made the advancement [Getting an Upgrade]
+[21:37:40] [Server thread/INFO]: WinterySoap367 has made the advancement [Acquire Hardware]
+[21:38:34] [User Authenticator #2/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[21:38:34] [Server thread/INFO]: Dafeiyang[/119.4.175.113:19458] logged in with entity id 5026 at (-47.66342921412794, 68.0, -56.458010142689325)
+[21:38:34] [Server thread/INFO]: Dafeiyang joined the game
+[21:40:25] [Server thread/INFO]: Dafeiyang has made the advancement [Stone Age]
+[21:41:37] [Server thread/INFO]: Dafeiyang has made the advancement [Getting an Upgrade]
+[21:53:47] [Server thread/INFO]: Dafeiyang has made the advancement [Acquire Hardware]
+[22:00:29] [Server thread/INFO]: Dafeiyang has made the advancement [Sweet Dreams]
+[22:00:34] [Server thread/INFO]: WinterySoap367 has made the advancement [Sweet Dreams]
+[22:08:56] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=998, y=64, z=28} gt{x=997, y=62, z=28}
+[22:12:12] [Server thread/INFO]: WinterySoap367 has made the advancement [Suit Up]
+[22:20:21] [Server thread/INFO]: Dafeiyang has made the advancement [A Seedy Place]
+[22:23:13] [Server thread/INFO]: Dafeiyang lost connection: Disconnected
+[22:23:13] [Server thread/INFO]: Dafeiyang left the game
+[22:24:40] [User Authenticator #3/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[22:24:40] [Server thread/INFO]: Dafeiyang[/119.4.175.113:19460] logged in with entity id 18606 at (954.16570417881, 63.0, 105.63176224190207)
+[22:24:40] [Server thread/INFO]: Dafeiyang joined the game
+[22:37:57] [Server thread/INFO]: Dafeiyang lost connection: Timed out
+[22:37:57] [Server thread/INFO]: Dafeiyang left the game
+[22:37:57] [Server thread/WARN]: handleDisconnection() called twice
+[22:38:07] [Server thread/INFO]: WinterySoap367 has made the advancement [A Seedy Place]
+[22:42:30] [User Authenticator #4/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[22:42:30] [Server thread/INFO]: Dafeiyang[/101.206.166.155:45796] logged in with entity id 22066 at (912.0058456784573, 83.0, 105.0934269029647)
+[22:42:30] [Server thread/INFO]: Dafeiyang joined the game
+[22:46:31] [Server thread/INFO]: Villager bss['Villager'/14289, l='ServerLevel[world]', x=926.39, y=63.00, z=152.70] died, message: 'Villager was slain by Zombie'
+[22:46:46] [Server thread/INFO]: Villager bss['Leatherworker'/14219, l='ServerLevel[world]', x=926.57, y=63.00, z=152.70] died, message: 'Leatherworker was slain by Zombie'
+[22:46:53] [Server thread/INFO]: Villager bss['Villager'/14288, l='ServerLevel[world]', x=927.70, y=63.00, z=152.30] died, message: 'Villager was slain by Zombie'
+[22:46:56] [Server thread/INFO]: Villager bss['Villager'/14287, l='ServerLevel[world]', x=924.90, y=63.00, z=152.30] died, message: 'Villager was slain by Zombie'
+[22:47:02] [Server thread/INFO]: Villager bss['Villager'/14326, l='ServerLevel[world]', x=924.30, y=63.00, z=152.30] died, message: 'Villager was slain by Zombie'
+[22:47:35] [Server thread/INFO]: Villager bss['Nitwit'/14258, l='ServerLevel[world]', x=920.70, y=64.00, z=202.32] died, message: 'Nitwit was slain by Zombie'
+[22:49:53] [Server thread/INFO]: WinterySoap367 has made the advancement [Monster Hunter]
+[23:12:37] [Server thread/INFO]: Dafeiyang has made the advancement [Suit Up]
+[23:20:41] [Server thread/INFO]: WinterySoap367 was slain by Iron Golem
+[23:22:16] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[23:22:16] [Server thread/INFO]: WinterySoap367 left the game
+[23:23:41] [Server thread/INFO]: Dafeiyang fell from a high place
+[23:27:07] [User Authenticator #5/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[23:27:07] [Server thread/INFO]: WinterySoap367[/117.173.184.132:17445] logged in with entity id 31902 at (901.1479936591079, 64.0, 103.55275200302428)
+[23:27:07] [Server thread/INFO]: WinterySoap367 joined the game
+[23:30:42] [Server thread/INFO]: Dafeiyang has made the advancement [Monster Hunter]
+[23:32:06] [Server thread/INFO]: <Dafeiyang> E
+[23:37:37] [Server thread/INFO]: [WinterySoap367: Teleported Dafeiyang to WinterySoap367]
+[23:41:16] [Server thread/INFO]: Dafeiyang has made the advancement [Hot Stuff]
+[23:46:28] [Server thread/INFO]: Dafeiyang has made the advancement [Isn't It Iron Pick]
+[23:47:22] [Server thread/INFO]: Dafeiyang has made the advancement [Diamonds!]
+[23:52:22] [Server thread/INFO]: WinterySoap367 has made the advancement [Isn't It Iron Pick]
+[23:56:09] [Server thread/INFO]: WinterySoap367 was shot by Skeleton
+[23:56:52] [Server thread/INFO]: [WinterySoap367: Teleported WinterySoap367 to Dafeiyang]
+[23:58:00] [Server thread/INFO]: WinterySoap367 has made the advancement [Diamonds!]
+[00:09:29] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[00:09:29] [Server thread/INFO]: WinterySoap367 left the game
+[00:11:10] [User Authenticator #6/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[00:11:10] [Server thread/INFO]: WinterySoap367[/117.173.184.132:17448] logged in with entity id 40553 at (994.6999999880791, 65.76636799395752, -7.387665032191726)
+[00:11:10] [Server thread/INFO]: WinterySoap367 joined the game
+[00:12:41] [Server thread/INFO]: Villager bss['Weaponsmith'/31159, l='ServerLevel[world]', x=905.45, y=83.00, z=117.14] died, message: 'Weaponsmith was slain by Zombie'
+[00:13:19] [Server thread/INFO]: Villager bss['Farmer'/31146, l='ServerLevel[world]', x=916.70, y=83.00, z=101.49] died, message: 'Farmer was slain by Zombie'
+[00:13:26] [Server thread/INFO]: Villager bss['Weaponsmith'/31161, l='ServerLevel[world]', x=916.30, y=83.00, z=101.49] died, message: 'Weaponsmith was slain by Zombie'
+[00:14:17] [Server thread/INFO]: Villager bss['Armorer'/31160, l='ServerLevel[world]', x=916.30, y=83.00, z=101.49] died, message: 'Armorer was slain by Zombie'
+[00:15:25] [Server thread/INFO]: Villager bss['Farmer'/31147, l='ServerLevel[world]', x=916.49, y=83.00, z=101.49] died, message: 'Farmer was slain by Zombie'
+[00:34:32] [Server thread/INFO]: [WinterySoap367: Summoned new Villager]
+[00:54:27] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[00:54:27] [Server thread/INFO]: WinterySoap367 left the game
+[00:55:58] [Server thread/INFO]: Dafeiyang has made the advancement [We Need to Go Deeper]
+[00:55:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4573ms or 91 ticks behind
+[00:56:00] [User Authenticator #7/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[00:56:00] [Server thread/INFO]: WinterySoap367[/117.173.184.132:17777] logged in with entity id 49745 at (936.085268900576, 62.073264324665075, 94.05000042189472)
+[00:56:00] [Server thread/INFO]: WinterySoap367 joined the game
+[00:57:46] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved too quickly! -8.351724664698622,0.0,-6.104824120444249
+[00:57:46] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved too quickly! -8.588563072454349,0.0,-6.408221092857929
+[00:57:46] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved too quickly! -8.825273696739487,0.0,-6.713606549216038
+[00:57:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[01:06:40] [Server thread/INFO]: Dafeiyang has made the advancement [What a Deal!]
+[01:07:44] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.49328245106931945
+[01:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[01:19:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
+[01:21:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2632ms or 52 ticks behind
+[01:22:11] [Server thread/INFO]: Dafeiyang lost connection: Disconnected
+[01:22:11] [Server thread/INFO]: Dafeiyang left the game
+[01:22:17] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[01:22:17] [Server thread/INFO]: WinterySoap367 left the game
+[16:47:26] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@1b6a83dd[id=<null>,name=WinterySoap367,properties={},legacy=false] (/117.173.184.132:17800): Took too long to log in
+[16:47:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@1b6a83dd[id=<null>,name=WinterySoap367,properties={},legacy=false] (/117.173.184.132:17800) lost connection: Timed out
+[16:47:26] [Server thread/WARN]: handleDisconnection() called twice
+[16:47:41] [User Authenticator #8/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[16:47:41] [Server thread/INFO]: WinterySoap367[/117.173.184.132:17833] logged in with entity id 66233 at (-1633.5, 66.0, -111.5)
+[16:47:41] [Server thread/INFO]: WinterySoap367 joined the game
+[16:47:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2626ms or 52 ticks behind
+[17:00:33] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[17:00:33] [Server thread/INFO]: WinterySoap367 left the game
+[20:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
+[20:04:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7134ms or 142 ticks behind
+[20:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 50124ms or 1002 ticks behind
+[20:07:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 110969ms or 2219 ticks behind
+[20:08:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 74212ms or 1484 ticks behind
+[20:14:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 313549ms or 6270 ticks behind
+[20:15:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45128ms or 902 ticks behind
+[20:15:16] [Server Watchdog/ERROR]: A single server tick took 61.67 seconds (should be max 0.05)
+[20:15:25] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
+[20:15:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3610ms or 72 ticks behind
+[20:21:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 348574ms or 6971 ticks behind
+[20:23:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 126187ms or 2523 ticks behind
+[20:26:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 145109ms or 2902 ticks behind
+[20:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 124898ms or 2497 ticks behind
+[20:31:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 166508ms or 3330 ticks behind
+Error: LinkageError occurred while loading main class net.minecraft.bundler.Main
+	java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+Starting net.minecraft.server.Main
+[22:04:15] [ServerMain/INFO]: Building unoptimized datafixer
+[22:04:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:04:21] [ServerMain/INFO]: Loaded 7 recipes
+[22:04:21] [ServerMain/INFO]: Loaded 1179 advancements
+[22:04:24] [Server thread/INFO]: Starting minecraft server version 1.19
+[22:04:24] [Server thread/INFO]: Loading properties
+[22:04:24] [Server thread/INFO]: Default game type: SURVIVAL
+[22:04:24] [Server thread/INFO]: Generating keypair
+[22:04:24] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[22:04:24] [Server thread/INFO]: Starting Minecraft server on *:25519
+[22:04:24] [Server thread/INFO]: Using epoll channel type
+[22:04:24] [Server thread/INFO]: Preparing level "world"
+[22:04:38] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[22:04:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[22:04:59] [Worker-Main-1/INFO]: Preparing spawn area: 9%
+[22:04:59] [Server thread/INFO]: Time elapsed: 13637 ms
+[22:04:59] [Server thread/INFO]: Done (34.812s)! For help, type "help"
+[22:05:00] [Server thread/INFO]: WinterySoap367[/117.177.194.156:31114] logged in with entity id 52 at (-1284.8818236940292, 88.0, -758.0504344761437)
+[22:05:00] [Server thread/INFO]: WinterySoap367 joined the game
+[22:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7366ms or 147 ticks behind
+[22:05:30] [User Authenticator #2/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[22:05:30] [Server thread/INFO]: Dafeiyang[/119.4.175.176:24367] logged in with entity id 343 at (917.8977043133449, 63.5625, 105.96611575640215)
+[22:05:30] [Server thread/INFO]: Dafeiyang joined the game
+[22:05:40] [Server thread/WARN]: WinterySoap367 moved too quickly! -9.716226350785746,-1.0,-2.460882481505678
+[22:05:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9543ms or 190 ticks behind
+[22:11:46] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[22:11:46] [Server thread/INFO]: WinterySoap367 left the game
+[22:13:40] [User Authenticator #3/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[22:13:41] [Server thread/INFO]: WinterySoap367[/117.177.194.156:31120] logged in with entity id 4360 at (-2213.3255007811968, 63.0, -877.6607915008434)
+[22:13:41] [Server thread/INFO]: WinterySoap367 joined the game
+[22:13:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5128ms or 102 ticks behind
+[22:14:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7823ms or 156 ticks behind
+[22:15:09] [Server thread/INFO]: [WinterySoap367: Teleported WinterySoap367 to 336.500000, 70.000000, 2500.500000]
+[22:15:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6639ms or 132 ticks behind
+[22:18:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[22:22:23] [Server thread/INFO]: [WinterySoap367: Teleported WinterySoap367 to Dafeiyang]
+[22:31:32] [Server thread/INFO]: WinterySoap367 has made the advancement [Fishy Business]
+[22:37:06] [Server thread/INFO]: Dafeiyang has made the advancement [Fishy Business]
+[23:28:38] [Server thread/INFO]: WinterySoap367 has made the advancement [Take Aim]
+[23:47:26] [Server thread/INFO]: Dafeiyang fell from a high place
+[23:49:37] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.31078023337283867
+[23:49:37] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.47618255054521796
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.6651861801642553
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.8086560064781452
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.9427459024892642
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.3279446126850871
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.4261351000574223
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.51839489913732
+[23:49:38] [Server thread/WARN]: Boat (vehicle of WinterySoap367) moved wrongly! 0.6048760715792696
+[00:56:41] [Server thread/INFO]: WinterySoap367 has made the advancement [What a Deal!]
+[01:06:19] [Server thread/INFO]: Named entity brm['工具人'/31539, l='ServerLevel[world]', x=903.50, y=82.61, z=102.79] died: 工具人 was killed trying to hurt Dafeiyang
+[01:23:16] [Server thread/INFO]: Dafeiyang has made the advancement [Cover Me with Diamonds]
+[01:23:30] [Server thread/INFO]: WinterySoap367 has made the advancement [Cover Me with Diamonds]
+[01:53:45] [Server thread/INFO]: Dafeiyang has made the advancement [Ice Bucket Challenge]
+[02:03:37] [Server thread/INFO]: Dafeiyang lost connection: Disconnected
+[02:03:37] [Server thread/INFO]: Dafeiyang left the game
+[02:04:38] [User Authenticator #4/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[02:04:38] [Server thread/INFO]: Dafeiyang[/119.4.175.176:24609] logged in with entity id 48576 at (898.9839738791934, 62.9375, 92.52827789905497)
+[02:04:38] [Server thread/INFO]: Dafeiyang joined the game
+[02:26:00] [Server thread/INFO]: Dafeiyang lost connection: Disconnected
+[02:26:00] [Server thread/INFO]: Dafeiyang left the game
+[02:41:52] [Server thread/INFO]: Villager bss['Villager'/52866, l='ServerLevel[world]', x=913.49, y=66.23, z=109.36] died, message: 'Villager tried to swim in lava'
+[09:16:53] [User Authenticator #5/INFO]: UUID of player Dafeiyang is 771113e1-1b12-42c3-b0fd-b4dc383b1ef5
+[09:16:53] [Server thread/INFO]: Dafeiyang[/119.4.174.252:55334] logged in with entity id 102588 at (918.773206849275, 63.5625, 106.54787688661376)
+[09:16:53] [Server thread/INFO]: Dafeiyang joined the game
+[09:28:48] [Server thread/INFO]: <WinterySoap367> 早
+[09:28:54] [Server thread/INFO]: <Dafeiyang> HH
+[09:29:21] [Server thread/INFO]: <Dafeiyang> 你惊天这么早
+[09:29:52] [Server thread/INFO]: <WinterySoap367> 因为太阳晒屁股了
+[09:29:57] [Server thread/INFO]: <Dafeiyang> HHHH
+[09:30:38] [Server thread/INFO]: <Dafeiyang> 差不多30组贴
+[09:30:52] [Server thread/INFO]: <WinterySoap367> 我楼下太阳会晒到
+[09:32:42] [Server thread/INFO]: Dafeiyang has made the advancement [Enchanter]
+[09:33:24] [Server thread/INFO]: <Dafeiyang> 好烂的附魔
+[09:33:55] [Server thread/INFO]: <WinterySoap367> 你30级了嘛
+[09:34:06] [Server thread/INFO]: <Dafeiyang> 38
+[10:01:19] [Server thread/INFO]: Dafeiyang lost connection: Disconnected
+[10:01:19] [Server thread/INFO]: Dafeiyang left the game
+[10:04:45] [Server thread/INFO]: WinterySoap367 has made the advancement [Best Friends Forever]
+[10:09:01] [Server thread/INFO]: WinterySoap367 has made the advancement [Not Today, Thank You]
+[11:05:29] [Server thread/INFO]: WinterySoap367 lost connection: Disconnected
+[11:05:29] [Server thread/INFO]: WinterySoap367 left the game
+[14:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2110ms or 42 ticks behind
+[20:21:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3718ms or 74 ticks behind
+[20:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 92573ms or 1851 ticks behind
+[20:25:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 147675ms or 2953 ticks behind
+[20:27:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 99803ms or 1996 ticks behind
+[20:27:34] [Server Watchdog/ERROR]: A single server tick took 60.83 seconds (should be max 0.05)
+[20:27:36] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
+[20:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6029ms or 120 ticks behind
+[20:28:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9776ms or 195 ticks behind
+Crash report:
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 7/8/22, 8:28 PM
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at ayc.br(SourceFile:152)
+	at ayc.c(SourceFile:142)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:737)
+	at net.minecraft.server.MinecraftServer.v(SourceFile:669)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:258)
+	at net.minecraft.server.MinecraftServer$$Lambda$4316/0x000000080144edc0.run(Unknown Source)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at ayc.br(SourceFile:152)
+	at ayc.c(SourceFile:142)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:737)
+	at net.minecraft.server.MinecraftServer.v(SourceFile:669)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:258)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.3.1/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.3.1/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.3.1/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@60761cc8
+	at java.base@17.0.3.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@60761cc8
+	at java.base@17.0.3.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.3.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.3.1/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=10 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@511ecca3
+	at java.base@17.0.3.1/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@511ecca3
+	at java.base@17.0.3.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.3.1/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.3.1/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"DestroyJavaVM" prio=5 Id=13 RUNNABLE
+
+
+"Timer hack thread" daemon prio=5 Id=19 TIMED_WAITING
+	at java.base@17.0.3.1/java.lang.Thread.sleep(Native Method)
+	at ad$9.run(SourceFile:845)
+
+
+"Server thread" prio=5 Id=21 TIMED_WAITING on java.lang.String@6e70889
+	at java.base@17.0.3.1/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@6e70889
+	at java.base@17.0.3.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at ayc.br(SourceFile:152)
+	at ayc.c(SourceFile:142)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:737)
+	at net.minecraft.server.MinecraftServer.v(SourceFile:669)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:258)
+	at net.minecraft.server.MinecraftServer$$Lambda$4316/0x000000080144edc0.run(Unknown Source)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=24 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=25 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Server Watchdog" daemon prio=5 Id=32 RUNNABLE
+	at java.management@17.0.3.1/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.3.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.3.1/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at aes.run(SourceFile:49)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=36 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=45 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.3.1/java.lang.Thread.run(Thread.java:833)
+
+
+
+Stacktrace:
+	at aes.run(SourceFile:65)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 0, entities: 66,66,47,529,529,0,0 [minecraft:pig:11,minecraft:turtle:11,minecraft:cow:10,minecraft:chest_minecart:7,minecraft:sheep:7], block_entities: 29 [minecraft:mob_spawner:27,minecraft:beehive:2], block_ticks: 11, fluid_ticks: 51, chunk_source: Chunks[S] W: 2209 E: 66,66,47,529,529,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19
+	Minecraft Version ID: 1.19
+	Operating System: Linux (amd64) version 5.4.0-42-generic
+	Java Version: 17.0.3.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 689678072 bytes (657 MiB) / 1033895936 bytes (986 MiB) up to 1033895936 bytes (986 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-26xx v4
+	Identifier: Intel64 Family 6 Model 79 Stepping 1
+	Microarchitecture: Broadwell (Server)
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 2
+	Graphics card #0 name: GD 5446
+	Graphics card #0 vendor: Cirrus Logic (0x1013)
+	Graphics card #0 VRAM (MB): 32.00
+	Graphics card #0 deviceId: 0x00b8
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 937.13
+	Virtual memory used (MB): 3903.72
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 20; []
+	Data Packs: vanilla
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)
+[20:28:23] [Server Watchdog/ERROR]: This crash report has been saved to: /home/wang/mc/server1.19/./crash-reports/crash-2022-07-08_20.28.23-server.txt
+[20:28:23] [Server thread/INFO]: Stopping server
+Starting net.minecraft.server.Main
+[21:02:39] [ServerMain/INFO]: Building unoptimized datafixer
+[21:02:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:02:45] [ServerMain/INFO]: Loaded 7 recipes
+[21:02:46] [ServerMain/INFO]: Loaded 1179 advancements
+[21:02:48] [Server thread/INFO]: Starting minecraft server version 1.19
+[21:02:48] [Server thread/INFO]: Loading properties
+[21:02:48] [Server thread/INFO]: Default game type: SURVIVAL
+[21:02:48] [Server thread/INFO]: Generating keypair
+[21:02:48] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[21:02:48] [Server thread/INFO]: Starting Minecraft server on *:25519
+[21:02:48] [Server thread/INFO]: Using epoll channel type
+[21:02:49] [Server thread/INFO]: Preparing level "world"
+[21:03:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:03:10] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+Starting net.minecraft.server.Main
+[14:39:13] [ServerMain/INFO]: Building unoptimized datafixer
+[14:39:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:39:19] [ServerMain/INFO]: Loaded 7 recipes
+[14:39:20] [ServerMain/INFO]: Loaded 1179 advancements
+[14:39:22] [Server thread/INFO]: Starting minecraft server version 1.19
+[14:39:22] [Server thread/INFO]: Loading properties
+[14:39:22] [Server thread/INFO]: Default game type: SURVIVAL
+[14:39:22] [Server thread/INFO]: Generating keypair
+[14:39:22] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[14:39:22] [Server thread/INFO]: Starting Minecraft server on *:25519
+[14:39:22] [Server thread/INFO]: Using epoll channel type
+[14:39:23] [Server thread/INFO]: Preparing level "world"
+[14:39:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+Starting net.minecraft.server.Main
+[10:28:55] [ServerMain/INFO]: Building unoptimized datafixer
+[10:28:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:29:01] [ServerMain/INFO]: Loaded 7 recipes
+[10:29:02] [ServerMain/INFO]: Loaded 1179 advancements
+[10:29:04] [Server thread/INFO]: Starting minecraft server version 1.19
+[10:29:04] [Server thread/INFO]: Loading properties
+[10:29:04] [Server thread/INFO]: Default game type: SURVIVAL
+[10:29:04] [Server thread/INFO]: Generating keypair
+[10:29:04] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at aep$1.run(SourceFile:92) [server-1.19.jar:?]
+[10:29:04] [Server thread/INFO]: Starting Minecraft server on *:25519
+[10:29:04] [Server thread/INFO]: Using epoll channel type
+[10:29:05] [Server thread/INFO]: Preparing level "world"
+[10:29:08] [User Authenticator #1/INFO]: UUID of player WinterySoap367 is 4d26bb0f-f6ac-4ad2-9e64-74382f7122a4
+[10:29:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
